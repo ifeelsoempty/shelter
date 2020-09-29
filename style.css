@@ -23,9 +23,15 @@ main {
 .wrapper {
   display: flex;
   margin: 0 auto;
-  max-width: 75rem;
+  width: 100%;
   justify-content: space-between;
+  max-width: 1200px;
   overflow: hidden;
+}
+
+.wrapper__column{
+  flex-direction: column;
+  align-items: center;
 }
 
 .button{
@@ -128,11 +134,6 @@ nav ul li a:hover {
   height: 321px;
 }
 
-.hero__image img{
-  max-width: 100%;
-  height: auto;
-}
-
 .hero__title {
   max-width: 19.375rem;
   font-family: Georgia;
@@ -159,10 +160,10 @@ nav ul li a:hover {
 .about {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 20px;
-  justify-content: space-around;
+  column-gap: 120px;
+  justify-content: center;
   min-height: 588px;
-  padding: 4.2% 25%;
+  padding: 4.2% 0;
 }
 
 .about__image img {
@@ -233,29 +234,23 @@ nav ul li a:hover {
 .slider{
   display: flex;
   justify-content: space-between;
-  column-gap: 15px;
   align-items: center;
-  width: 80%;
   padding: 60px 0;
+  min-width: 100%;
 }
 
 .slider__arrow-left{
-  margin-left: 10.6%;
   transform: rotate(180deg);
-}
-
-.slider__arrow-right{
-  margin-right: 10.6%;
 }
 
 .slider__slides{
   display: flex;
   justify-content: center;
+  align-items: center;
   column-gap: 90px;
   flex-wrap: wrap;
   overflow: hidden;
-  width: 65.1%;
-  max-height: 445px;
+  max-height: 435px;
 }
 
 .slider__slide {
@@ -366,10 +361,76 @@ nav ul li a:hover {
   height: 60px;
 }
 
-
-.in-addition {
+.donation {
   background: #f6f6f6;
-  height: 464px;
+  min-height: 464px;
+}
+
+.donation__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  padding: 6.9% 0;
+}
+
+.donation__content-block{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.donation__content-block__title{
+  width: 300px;
+  font-family: Georgia;
+  letter-spacing: 0.13rem;
+  line-height: 45px;
+  color: #545454;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.donation__content-block__description{
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.055rem;
+  margin-top: 18px;
+}
+
+.donation__content-block__card-number{
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  align-items: center;
+  margin: 20px 0;
+  background: #F1CDB3;
+  border-radius: 9px;
+  width: 349px;
+  color: #545454;
+  height: 43px;
+}
+
+.donation__content-block__card-number span{
+  font-family: Georgia;
+  font-weight: 400;
+  letter-spacing: 0.07rem;
+  font-size: 20px;
+}
+
+.donation__img{
+  max-width: 100%;
+  height: auto;
+}
+
+.donation__content-block__info{
+  font-family: Arial;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
 }
 
 footer {
@@ -378,14 +439,8 @@ footer {
   height: 355px;
 }
 
-
-@media (max-width: 720px){
+@media (max-width: 500px){
   .arrow{
     display: none;
   }
-
-  .slider{
-    justify-content: center;
-  }
-
 }

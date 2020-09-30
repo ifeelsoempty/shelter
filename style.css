@@ -163,7 +163,7 @@ nav ul li a:hover {
   column-gap: 120px;
   justify-content: center;
   min-height: 588px;
-  padding: 4.2% 0;
+  padding: 80px 0;
 }
 
 .about__image img {
@@ -366,6 +366,7 @@ nav ul li a:hover {
   min-height: 464px;
 }
 
+
 .donation__wrapper {
   display: flex;
   width: 100%;
@@ -373,13 +374,13 @@ nav ul li a:hover {
   align-items: center;
   column-gap: 30px;
   flex-wrap: wrap;
-  padding: 6.9% 0;
 }
 
 .donation__content-block{
   display: flex;
   flex-direction: column;
   width: 380px;
+  margin: 82px 0;
 }
 
 .donation__content-block__title{
@@ -436,7 +437,48 @@ nav ul li a:hover {
 footer {
   background: url(assets/noise_transparent@2x.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 70%), #211f20;
-  height: 355px;
+  min-height: 350px;
+}
+
+.footer__wrapper{
+  display: flex;
+  /* column-gap: 8.33vw; */
+  column-gap: 160px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer__wrapper__img{
+  margin-top: 35px;
+}
+
+.footer__content-block{
+  margin-top: 58px;
+  color: #F1CDB3;
+}
+
+.footer__content-block__title{
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.13rem;
+  color: #ffffff;
+}
+
+.footer__content-block__info{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 32px;
+  margin-top: 39px;
+}
+
+.footer__content-block__info__text{
+  font-size: 20px;
+  font-family: Georgia;
+  font-weight: 400;
+  letter-spacing: 0.075rem;
 }
 
 @media (max-width: 500px){

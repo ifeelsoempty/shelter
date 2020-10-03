@@ -5,16 +5,17 @@
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
+  font: inherit;
 }
 
 :root {
   font-size: 16px;
 }
 
-body {
-  margin: 0;
+body{
+  font-family: "Georgia" !important;
+  font-weight: 400;
 }
-
 main {
   display: flex;
   flex-direction: column;
@@ -42,8 +43,6 @@ main {
   align-items: center;
   background: #f1cdb3;
   font-size: 17px;
-  font-family: "Georgia";
-  font-weight: 400;
   letter-spacing: 0.06em;
   border-radius: 100px;
 }
@@ -65,7 +64,6 @@ header {
 
 .logo__title {
   color: #f1cdb3;
-  font-family: Georgia;
   font-size: 32px;
   letter-spacing: 0.06em;
   line-height: 115%;
@@ -136,11 +134,9 @@ nav ul li a:hover {
 
 .hero__title {
   max-width: 19.375rem;
-  font-family: Georgia;
   color: #ffffff;
   font-size: 2.75rem;
   line-height: 130%;
-  font-weight: 400;
 }
 
 .hero__subtitle {
@@ -176,11 +172,9 @@ nav ul li a:hover {
 }
 
 .about__title {
-  font-family: "Georgia";
   padding: 15px 0;
   line-height: 45px;
   letter-spacing: 2.15px;
-  font-weight: 400;
   font-size: 35px;
   color: #545454;
 }
@@ -189,8 +183,8 @@ nav ul li a:hover {
   margin-top: 9px;
   display: flex;
   flex-direction: column;
+  font-family: Arial !important;
   row-gap: 25px;
-  font-family: Arial;
   font-size: 15px;
   line-height: 24px;
 }
@@ -204,9 +198,7 @@ nav ul li a:hover {
 }
 
 .our-friends__title {
-  font-family: "Georgia";
   font-size: 35px;
-  font-weight: 400;
   line-height: 45px;
   letter-spacing: 0.13rem;
   padding-top: 81px;
@@ -214,7 +206,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.arrow {
+.slider-button {
   border: 2px solid#f1cdb3;
   min-width: 52px;
   height: 52px;
@@ -225,12 +217,10 @@ nav ul li a:hover {
   letter-spacing: 0.06rem;
   color: #292929;
   text-decoration: none;
-  font-family: Georgia;
-  font-weight: 400;
   font-size: 20px;
 }
 
-.arrow:hover {
+.slider-button:hover {
   background: #fddcc4;
   border: 0;
 }
@@ -243,7 +233,7 @@ nav ul li a:hover {
   min-width: 100%;
 }
 
-.slider__arrow-left {
+.slider-button_ri img {
   transform: rotate(180deg);
 }
 
@@ -284,7 +274,6 @@ nav ul li a:hover {
   color: #292929;
   text-decoration: none;
   margin-top: 19px;
-  font-family: Georgia;
   font-size: 17px;
   letter-spacing: 0.06em;
 }
@@ -295,12 +284,10 @@ nav ul li a:hover {
 }
 
 .slider__slide h1 {
-  font-family: "Georgia";
   margin-top: 19px;
   margin-left: 2px;
   line-height: 45px;
   letter-spacing: 1.4px;
-  font-weight: 400;
   font-size: 20px;
   color: #545454;
 }
@@ -319,8 +306,6 @@ nav ul li a:hover {
 }
 
 .help__title {
-  font-family: "Georgia";
-  font-weight: 400;
   font-size: 35px;
   letter-spacing: 0.13rem;
   line-height: 45px;
@@ -348,10 +333,8 @@ nav ul li a:hover {
 }
 
 .help__item h1 {
-  font-family: "Georgia";
   padding-top: 30px;
   font-size: 20px;
-  font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.07rem;
 }
@@ -384,18 +367,14 @@ nav ul li a:hover {
 
 .donation__content-block__title {
   width: 300px;
-  font-family: Georgia;
   letter-spacing: 0.13rem;
   line-height: 45px;
   color: #545454;
-  font-weight: 400;
   font-size: 35px;
 }
 
 .donation__content-block__description {
-  font-family: Georgia;
   font-size: 15px;
-  font-weight: 400;
   letter-spacing: 0.055rem;
   margin-top: 18px;
 }
@@ -414,8 +393,6 @@ nav ul li a:hover {
 }
 
 .donation__content-block__card-number span {
-  font-family: Georgia;
-  font-weight: 400;
   letter-spacing: 0.075rem;
   font-size: 20px;
 }
@@ -441,24 +418,22 @@ footer {
 
 .footer__wrapper {
   display: flex;
-  column-gap: 13.3%;
+  column-gap: 13.33%;
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .footer__wrapper__img {
-  margin-top: 35px;
+  margin-top: 37px;
 }
 
 .footer__content-block {
-  margin-top: 58px;
+  margin-top: 57px;
   color: #f1cdb3;
 }
 
 .footer__content-block__title {
-  font-family: Georgia;
-  font-weight: 400;
   font-size: 35px;
   line-height: 45px;
   letter-spacing: 0.13rem;
@@ -475,13 +450,5 @@ footer {
 
 .footer__content-block__info__text {
   font-size: 20px;
-  font-family: Georgia;
-  font-weight: 400;
   letter-spacing: 0.075rem;
-}
-
-@media (max-width: 500px) {
-  .arrow {
-    display: none;
-  }
 }

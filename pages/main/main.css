@@ -29,12 +29,12 @@ main {
   overflow: hidden;
 }
 
-.wrapper__column{
+.wrapper__column {
   flex-direction: column;
   align-items: center;
 }
 
-.button{
+.button {
   text-decoration: none;
   color: #292929;
   display: flex;
@@ -48,7 +48,7 @@ main {
   border-radius: 100px;
 }
 
-.button:hover{
+.button:hover {
   background: #fddcc4;
 }
 
@@ -120,7 +120,7 @@ nav ul li a:hover {
 }
 
 .hero {
-  background: url(assets/noise_transparent@2x.png),
+  background: url(../../assets/noise_transparent@2x.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 70%), #211f20;
   padding-top: 180px;
   height: 908px;
@@ -203,7 +203,7 @@ nav ul li a:hover {
   background: #f6f6f6;
 }
 
-.our-friends__title{
+.our-friends__title {
   font-family: "Georgia";
   font-size: 35px;
   font-weight: 400;
@@ -214,7 +214,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.arrow{
+.arrow {
   border: 2px solid#f1cdb3;
   min-width: 52px;
   height: 52px;
@@ -222,28 +222,32 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 0.06rem;
   color: #292929;
   text-decoration: none;
+  font-family: Georgia;
+  font-weight: 400;
+  font-size: 20px;
 }
 
-.arrow:hover{
+.arrow:hover {
   background: #fddcc4;
   border: 0;
 }
 
-.slider{
+.slider {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0;
+  padding: 59px 0;
   min-width: 100%;
 }
 
-.slider__arrow-left{
+.slider__arrow-left {
   transform: rotate(180deg);
 }
 
-.slider__slides{
+.slider__slides {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,23 +261,19 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #FAFAFA;
+  background: #fafafa;
   border-radius: 9px;
   min-width: 270px;
   max-width: 270px;
   height: 435px;
 }
 
-.slider__slide:hover{
+.slider__slide:hover {
   background: #ffffff;
   cursor: pointer;
 }
 
-.slider__slide img{
-  margin-top: 29px;
-}
-
-.slide-button{
+.slide-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,12 +289,12 @@ nav ul li a:hover {
   letter-spacing: 0.06em;
 }
 
-.slide-button:hover{
+.slide-button:hover {
   background: #fddcc4;
   border: 0;
 }
 
-.slider__slide h1{
+.slider__slide h1 {
   font-family: "Georgia";
   margin-top: 19px;
   margin-left: 2px;
@@ -305,10 +305,10 @@ nav ul li a:hover {
   color: #545454;
 }
 
-.our-friends__button{
+.our-friends__button {
   width: 261px;
   min-height: 52px;
-  margin-top: -1px;
+  margin-top: 1px;
 }
 
 .help {
@@ -318,7 +318,7 @@ nav ul li a:hover {
   min-height: 611px;
 }
 
-.help__title{
+.help__title {
   font-family: "Georgia";
   font-weight: 400;
   font-size: 35px;
@@ -330,7 +330,7 @@ nav ul li a:hover {
   margin-left: 2px;
 }
 
-.help__list{
+.help__list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 120.2px;
@@ -341,13 +341,13 @@ nav ul li a:hover {
   padding: 60px;
 }
 
-.help__item{
+.help__item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.help__item h1{
+.help__item h1 {
   font-family: "Georgia";
   padding-top: 30px;
   font-size: 20px;
@@ -356,7 +356,7 @@ nav ul li a:hover {
   letter-spacing: 0.07rem;
 }
 
-.help__item img{
+.help__item img {
   max-width: 60px;
   height: 60px;
 }
@@ -365,7 +365,6 @@ nav ul li a:hover {
   background: #f6f6f6;
   min-height: 464px;
 }
-
 
 .donation__wrapper {
   display: flex;
@@ -376,14 +375,14 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
-.donation__content-block{
+.donation__content-block {
   display: flex;
   flex-direction: column;
   width: 380px;
-  margin: 82px 0;
+  margin: 6.9% 0;
 }
 
-.donation__content-block__title{
+.donation__content-block__title {
   width: 300px;
   font-family: Georgia;
   letter-spacing: 0.13rem;
@@ -393,7 +392,7 @@ nav ul li a:hover {
   font-size: 35px;
 }
 
-.donation__content-block__description{
+.donation__content-block__description {
   font-family: Georgia;
   font-size: 15px;
   font-weight: 400;
@@ -401,32 +400,32 @@ nav ul li a:hover {
   margin-top: 18px;
 }
 
-.donation__content-block__card-number{
+.donation__content-block__card-number {
   display: flex;
   justify-content: center;
   column-gap: 15px;
   align-items: center;
   margin: 20px 0;
-  background: #F1CDB3;
+  background: #f1cdb3;
   border-radius: 9px;
   width: 349px;
   color: #545454;
   height: 43px;
 }
 
-.donation__content-block__card-number span{
+.donation__content-block__card-number span {
   font-family: Georgia;
   font-weight: 400;
-  letter-spacing: 0.07rem;
+  letter-spacing: 0.075rem;
   font-size: 20px;
 }
 
-.donation__img{
+.donation__img {
   max-width: 100%;
   height: auto;
 }
 
-.donation__content-block__info{
+.donation__content-block__info {
   font-family: Arial;
   font-style: italic;
   font-size: 12px;
@@ -435,29 +434,29 @@ nav ul li a:hover {
 }
 
 footer {
-  background: url(assets/noise_transparent@2x.png),
+  background: url(../../assets/noise_transparent@2x.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 70%), #211f20;
   min-height: 350px;
 }
 
-.footer__wrapper{
+.footer__wrapper {
   display: flex;
-  /* column-gap: 8.33vw; */
-  column-gap: 160px;
-  justify-content: space-around;
+  column-gap: 13.3%;
+  width: 100%;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.footer__wrapper__img{
+.footer__wrapper__img {
   margin-top: 35px;
 }
 
-.footer__content-block{
+.footer__content-block {
   margin-top: 58px;
-  color: #F1CDB3;
+  color: #f1cdb3;
 }
 
-.footer__content-block__title{
+.footer__content-block__title {
   font-family: Georgia;
   font-weight: 400;
   font-size: 35px;
@@ -466,7 +465,7 @@ footer {
   color: #ffffff;
 }
 
-.footer__content-block__info{
+.footer__content-block__info {
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -474,15 +473,15 @@ footer {
   margin-top: 39px;
 }
 
-.footer__content-block__info__text{
+.footer__content-block__info__text {
   font-size: 20px;
   font-family: Georgia;
   font-weight: 400;
   letter-spacing: 0.075rem;
 }
 
-@media (max-width: 500px){
-  .arrow{
+@media (max-width: 500px) {
+  .arrow {
     display: none;
   }
 }

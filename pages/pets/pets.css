@@ -1,0 +1,49 @@
+header {
+  top: 30px;
+}
+
+.logo__title {
+  color: #545454;
+}
+
+.logo__subtitle {
+  color: #292929;
+}
+
+nav ul li a:hover {
+  color: #292929;
+}
+
+.list__link_active {
+  color: #292929;
+}
+
+.list__link_disabled {
+  color: #545454;
+}
+
+.our-friends {
+  min-height: 1342px;
+  height: 100%;
+  margin-top: 120px;
+}
+
+.controls{
+  display: flex;
+  column-gap: 20px;
+}
+
+.slider__slides{
+  column-gap: 40px;
+  row-gap: 30px;
+  max-height: 100% !important;
+}
+
+.button-page__active{
+  background: #F1CDB3;
+}
+
+.arrow_disabled{
+  color: #CDCDCD;
+  border: 2px solid #CDCDCD;
+}

@@ -22,6 +22,24 @@ nav ul li a:hover {
   color: #545454;
 }
 
+.slider {
+  display: flex;
+  justify-content: space-between;	
+  align-items: center;	
+  padding: 59px 0;	
+  min-width: 100%;	
+}
+
+.slider__slides{
+  column-gap: 90px;	
+  flex-wrap: wrap;	
+  overflow: hidden;
+}
+
+.slider-button{
+  position: static;
+}
+
 .our-friends {
   min-height: 1342px;
   height: 100%;
